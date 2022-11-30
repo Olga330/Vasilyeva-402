@@ -9,7 +9,7 @@
 <body>
 <?php
    require_once('connect.php');
-    $query = $conn->query('SELECT * FROM departments');
+    $query = $conn->query('SELECT * FROM dept_manager');
     // $data = $query->fetch();//первая запись
     $data = $query->fetchAll();//все записи
    //print_r($data);
